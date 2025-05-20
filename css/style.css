@@ -1,0 +1,51 @@
+header, footer {
+    background-size: 100vw 100vh;
+    text-align: start;
+    background-image: url("../img/background-triangles-blue.jpg");
+    padding: 15px;
+}
+header img {
+    height: 10%;
+    width: 10%;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+header h1 {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+nav ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+nav ol li {
+    border: solid;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+nav ol li ul {
+    display: none;
+    position: absolute;
+    min-width: min-content;
+    z-index: 1;
+    background-color: lavender;
+}
+nav ol li ul li {
+    border: solid black;
+    position: absolute;
+    min-width: min-content;
+    z-index: 1;
+    background-color: lavender;
+}
+nav ol li:hover ul {
+    display: block;
+}
