@@ -1,0 +1,28 @@
+section {
+	border: solid;
+	margin: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#image-steps {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#image-step {
+	height: 300px;
+}
+
+#buttons-steps {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	button {
+		height: 100%;
+	}
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!-- HTML Version 5-->
+<html lang="fr"> <!-- Specify language for browser-->
+    <head> <!-- HTML document header -->
+        <title>Totoro origami</title> <!-- Tells the browser what title you give your page -->
+        <meta charset="utf-8" /> <!-- specifies character encoding to UTF-8-->
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/origami.css">
+	<script type="text/javascript" src="/html/origami/template/script.js" defer=true></script>
+    </head><!-- End of header tag -->
+    <body>
+	    <header>
+            <a href = "/html/home.html">
+                <img src = "/img/Origami-crane.jpg" alt = "Origami-crane.jpg">
+                <h1>Origami Web</h1>
+            </a>
+
+            <nav>
+                <ol>
+                    <li><a href="/html/home.html">Home</a></li>
+                    <li class="top-level-entry-container ">Origamis
+                		<ul id="tools-menu" class="submenu tools hidden inline-submenu-lg" aria-labelledby="tools-button">
+                            <li>
+                                <a href="/html/origami/template.html" class="submenu-item ">Origami 1</a>
+                                <a href="/html/origami/template.html" class="submenu-item ">Origami 2</a>
+                                <a href="/html/origami/template.html" class="submenu-item ">Origami 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="/html/about.html">About</a></li>
+                </ol>
+            </nav>
+	    </header>
+	    <section>
+		    <div id="image-steps">
+			    <img id="image-step" src="./steps/1.png">
+		    </div>
+		    <div id="buttons-steps">
+			    <div>
+				    <button type="submit" onclick="first_step()">first step</button>
+				    <button type="submit" onclick="previous_step()">previous step</button>
+			    </div>
+			    <div id="current-step">
+				    <p>1/31</p>
+			    </div>
+			    <div>
+				    <button type="submit" onclick="next_step()">next step</button>
+				    <button type="submit" onclick="last_step()">last step</button>
+			    </div>
+		    </div>
+	    </section>
+	    <footer>
+	    </footer>
+    </body>
+</html><!-- End of document -->
