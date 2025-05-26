@@ -1,11 +1,11 @@
 <!DOCTYPE html> <!-- HTML Version 5-->
 <html lang="fr"> <!-- Specify language for browser-->
     <head> <!-- HTML document header -->
-        <title>TEMPLATE origami</title> <!-- Tells the browser what title you give your page -->
+        <title>The Zen writing area</title> <!-- Tells the browser what title you give your page -->
         <meta charset="utf-8" /> <!-- specifies character encoding to UTF-8-->
-        <link rel="stylesheet" type="text/css" href="/css/style.css">
-        <link rel="stylesheet" type="text/css" href="/css/origami.css">
-	<script type="text/javascript" src="/html/origami/template/script.js" defer=true></script>
+        <link rel="stylesheet" type="text/css" href="../css/zen_writing.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="/js/zen_writing.js" defer=true></script>
     </head><!-- End of header tag -->
     <body>
 	    <header>
@@ -34,21 +34,11 @@
             </nav>
 	    </header>
 	    <section>
-		    <div id="image-steps">
-			    <img id="image-step" src="./steps/1.png">
-		    </div>
-		    <div id="buttons-steps">
-			    <div>
-				    <button type="submit" onclick="first_step()">first step</button>
-				    <button type="submit" onclick="previous_step()">previous step</button>
-			    </div>
-			    <div id="current-step">
-				    <p>1/31</p>
-			    </div>
-			    <div>
-				    <button type="submit" onclick="next_step()">next step</button>
-				    <button type="submit" onclick="last_step()">last step</button>
-			    </div>
+		    <h1>A Zen writing area</h1>
+		    <textarea id="writing_area" cols="200" rows="20" placeholder="Write some notes, jot down your thoughts, feelings and empty your mind...
+				  If you quit this page and come back, your notes will stay."></textarea>
+		    <div id="text_area_buttons">
+			    <button id="clipboard_copy" onclick="clipboard_copy()">Copy text</button>
 		    </div>
 	    </section>
 	    <footer>
