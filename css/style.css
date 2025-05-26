@@ -1,7 +1,7 @@
 header, footer {
     background-size: 100vw 100vh;
     text-align: start;
-    background-image: url("../img/background-triangles-blue.jpg");
+    background-image: url("/img/background-triangles-green.jpg");
     padding: 15px;
 }
 header img {
