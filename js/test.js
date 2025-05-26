@@ -19,7 +19,7 @@ function findPersonality() {
         result.getElementsByTagName("h3")[0].textContent = "You are a turtle.";
         console.log("you are a turtle");
     } else if (score[2] > score[0] && score[2] > score[1]) {
-        result.getElementsByTagName("img")[0].src = "origami/the_frog_prince/the_frog_prince.gif";
+        result.getElementsByTagName("img")[0].src = "origami/frog_prince/frog_prince.gif";
         result.getElementsByTagName("h3")[0].textContent = "You are the frog prince.";
         console.log("you are the frog prince");
     } else if (score[0] === score[1] && score[0] > score[2]) {
