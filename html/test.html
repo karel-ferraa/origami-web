@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quiz Origami</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/test.css">
+        <script type="text/javascript" src="../js/test.js"></script>
+    </head>
+    <body>
+	    <header>
+            <a href = "./home.html">
+                <img src = "/img/Origami-crane.jpg" alt = "Origami-crane.jpg">
+                <h1>Origami Web</h1>
+            </a>
+
+			<ul>
+				<li><a href="/html/home.html">Home</a></li>
+				<li class="top-level-entry-container ">Origamis
+					<ul id="tools-menu" class="submenu tools hidden inline-submenu-lg" aria-labelledby="tools-button">
+						<li>
+							<a href="/html/origami/template.html" class="submenu-item ">Origami 1</a>
+							<a href="/html/origami/template.html" class="submenu-item ">Origami 2</a>
+							<a href="/html/origami/template.html" class="submenu-item ">Origami 3</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="/html/about.html">About</a></li>
+			</ul>
+	    </header>
+
+        <section>
+            <h1>Personality test !!!</h1>
+        </section>
+
+        <section>
+            <form name="Quiz" class="box" id="QuizId" onsubmit="return false">
+                <fieldset class="test">
+                    <legend>What origami are you ?</legend>
+                    <ol>
+                        <li>
+                            Question 1: What do you like doing the most during a holiday?<br><br>
+                            <label>
+                                <input type = "radio" name = "question-1" id="1a">
+                                a) Play video-games
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-1" id="1b">
+                                b) Get ahead in your studys/work
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-1" id="1c">
+                                c) Going out with friends
+                            </label><br><br>
+                        </li>
+
+                        <li>
+                            Question 2: How often do you do sports?<br><br>
+                            <label>
+                                <input type = "radio" name = "question-2" id="2a">
+                                a) Never
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-2" id="2b">
+                                b) Sometimes
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-2" id="2c">
+                                c) Very frequently
+                            </label><br><br>
+                        </li>
+
+                        <li>
+                            Question 3: What do you prefer?<br><br>
+                            <label>
+                                <input type = "radio" name = "question-3" id="3a">
+                                a) Forest
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-3" id="3b">
+                                b) City
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-3" id="3c">
+                                c) Jungle
+                            </label><br><br>
+                        </li>
+
+                        <li>
+                            Question 4: If you were the hero of a classic RPG, what class would you be?<br><br>
+                            <label>
+                                <input type = "radio" name = "question-4" id="4a">
+                                a) A mage
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-4" id="4b">
+                                b) A thief
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-4" id="4c">
+                                c) A warrior
+                            </label><br><br>
+                        </li>
+
+                        <li>
+                            Question 5: Who do you think would win ?<br><br>
+                            <label>
+                                <input type = "radio" name = "question-5" id="5a">
+                                a) 100 humans
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-5" id="5b">
+                                b) 1 gorila
+                            </label><br>
+                            <label>
+                                <input type = "radio" name = "question-5" id="5c">
+                                c) Excuse me, what?
+                            </label><br><br>
+                        </li>
+
+                    </ol>
+                </fieldset>
+
+                <input type="button" value="Origami" onclick="findPersonality()">
+            </form>
+        </section>
+
+        <section class="result">
+            <h3></h3>
+            <img src="">
+        </section>
+
+    </body>
+</html>

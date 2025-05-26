@@ -17,35 +17,35 @@ header h1 {
     padding: 10px;
     position: relative;
 }
-nav ol {
+ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0;
     margin: 0;
 }
-nav ol li {
+ul li {
     border: solid;
     position: relative;
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
 }
-nav ol li ul {
+ul li ul {
     display: none;
     position: absolute;
     min-width: min-content;
     z-index: 1;
     background-color: lavender;
 }
-nav ol li ul li {
+ul li ul li {
     border: solid black;
     position: absolute;
     min-width: min-content;
     z-index: 1;
     background-color: lavender;
 }
-nav ol li:hover ul {
+ul li:hover ul {
     display: block;
 }
