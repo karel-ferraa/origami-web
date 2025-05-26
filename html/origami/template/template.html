@@ -32,14 +32,20 @@
 	    </header>
 	    <section>
 		    <div id="image-steps">
-			    <img id="image-step" src = "./steps/1.png">
+			    <img id="image-step" src="./steps/1.png">
 		    </div>
 		    <div id="buttons-steps">
-			    <button type="submit" onclick="previous_step()">previous step</button>
+			    <div>
+				    <button type="submit" onclick="first_step()">first step</button>
+				    <button type="submit" onclick="previous_step()">previous step</button>
+			    </div>
 			    <div id="current-step">
 				    <p>1/31</p>
 			    </div>
-			    <button type="submit" onclick="next_step()">next step</button>
+			    <div>
+				    <button type="submit" onclick="next_step()">next step</button>
+				    <button type="submit" onclick="last_step()">last step</button>
+			    </div>
 		    </div>
 	    </section>
 	    <footer>
