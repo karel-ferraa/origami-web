@@ -4,6 +4,9 @@ header, footer {
     background-image: url("/img/background-triangles-green.jpg");
     padding: 15px;
 }
+footer {
+    text-align: center;
+}
 header img {
     height: 10%;
     width: 10%;
