@@ -1,0 +1,21 @@
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+textarea {
+	padding: 20px;
+	margin: 20px;
+}
+
+#text_area_buttons {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
+
+	button {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}

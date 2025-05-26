@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!-- HTML Version 5-->
+<html lang="fr"> <!-- Specify language for browser-->
+    <head> <!-- HTML document header -->
+        <title>The Zen writing area</title> <!-- Tells the browser what title you give your page -->
+        <meta charset="utf-8" /> <!-- specifies character encoding to UTF-8-->
+        <link rel="stylesheet" type="text/css" href="../css/zen_writing.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="/js/zen_writing.js" defer=true></script>
+    </head><!-- End of header tag -->
+    <body>
+	    <header>
+            <a href = "/html/home.html">
+                <img src = "/img/Origami-crane.jpg" alt = "Origami-crane.jpg">
+                <h1>Origami Web</h1>
+            </a>
+
+            <nav>
+                <ol>
+                    <li><a href="/html/home.html">Home</a></li>
+                    <li><a href="/html/zen_writing.html">Zen writing area</a></li>
+                    <li class="top-level-entry-container ">Origamis
+                		<ul id="tools-menu" class="submenu tools hidden inline-submenu-lg" aria-labelledby="tools-button">
+                            <li>
+                                <a href="/html/origami/totoro/totoro.html" class="submenu-item ">Totoro Origami</a>
+                                <a href="/html/origami/chameleon/chameleon.html" class="submenu-item ">Chameleon Origami</a>
+                                <a href="/html/origami/elephant/elephant.html" class="submenu-item ">Elephant Origami</a>
+                                <a href="/html/origami/cat/cat.html" class="submenu-item ">Cat Origami</a>
+                                <a href="/html/origami/athletic_bear/athletic_bear.html" class="submenu-item ">Athletic Bear Origami</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="/html/about.html">About</a></li>
+                </ol>
+            </nav>
+	    </header>
+	    <section>
+		    <h1>A Zen writing area</h1>
+		    <textarea id="writing_area" cols="200" rows="20" placeholder="Write some notes, jot down your thoughts, feelings and empty your mind...
+				  If you quit this page and come back, your notes will stay."></textarea>
+		    <div id="text_area_buttons">
+			    <button id="clipboard_copy" onclick="clipboard_copy()">Copy text</button>
+		    </div>
+	    </section>
+	    <footer>
+	    </footer>
+    </body>
+</html><!-- End of document -->
